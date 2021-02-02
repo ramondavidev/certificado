@@ -1,0 +1,85 @@
+.certificate {
+    position: absolute;
+    z-index: 999;
+    margin-top: -650px;
+    margin-left: 170px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: 'Roboto Slab', serif !important;
+        height: 210mm;
+        width: 148.5mm;
+    
+        margin: 0;
+    }
+
+.text-certificate {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: -20px;
+}
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('./PALSCRI.TTF')  format('truetype');
+  }
+
+  .name {
+    font-family: 'MyWebFont', sans-serif !important;
+  }
+
+  .title {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+      font-size: 12px;
+  }
+
+  .text {
+      display: block;
+      margin-left: 40px;
+      font-size: 12px;
+  }
+
+  .back {
+      width: 720px;
+      height: 510px;
+      
+  }
+
+  .front {
+      height: 506px;    
+  }
+
+
+  
+
+  @media print {
+    @page {
+        size: A5;
+        margin: 0;
+    }
+    .front {
+        order: 1;
+        width: 100%;
+        height: 50%;
+    }
+    .back {
+        order: 2;
+
+    }
+
+
+    
+
+    
+  }
