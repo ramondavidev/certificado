@@ -9,6 +9,11 @@
     align-items: center;
 }
 
+.cv-container {
+    display: flex; 
+    flex-direction: column;
+}
+
 body {
     font-family: 'Roboto Slab', serif !important;
         height: 210mm;
