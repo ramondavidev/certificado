@@ -46,13 +46,19 @@ body {
       font-weight: bold;
       display: block;
       margin-top: 10px;
-      font-size: 12px;
+      font-size: 10px;
+      margin-left: 5px;
   }
 
   .text {
       display: block;
       margin-left: 40px;
-      font-size: 12px;
+      font-size: 10px;
+      margin-left: 5px;
+  }
+
+  .back img {
+      margin-left: 5px;
   }
 
   .back {
