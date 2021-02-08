@@ -23,14 +23,16 @@ body {
     }
 
 .text-certificate {
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 14px;
+
 }
 
 .name {
     font-size: 40px;
     font-weight: 400;
+    width: 500px !important;
     margin-bottom: -20px;
+    font-family: 'MyWebFont', sans-serif !important;
 }
 
 @font-face {
@@ -38,27 +40,33 @@ body {
     src: url('./PALSCRI.TTF')  format('truetype');
   }
 
-  .name {
-    font-family: 'MyWebFont', sans-serif !important;
+  @font-face {
+    font-family: 'ArialFont';
+    src: url('./ARIAL.TTF')  format('truetype');
   }
+
+  .back {
+      font-family: 'ArialFont', sans-serif !important;
+  }
+
 
   .title {
       font-weight: bold;
       display: block;
       margin-top: 10px;
       font-size: 10px;
-      margin-left: 5px;
+      margin-left: 35px;
   }
 
   .text {
       display: block;
       margin-left: 40px;
       font-size: 10px;
-      margin-left: 5px;
+      margin-left: 55px;
   }
 
   .back img {
-      margin-left: 5px;
+      margin-left: 35px;
   }
 
   .back {
